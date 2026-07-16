@@ -10,13 +10,13 @@
   "signup": {
     "heading": "GET THE NEXT LIST",
     "description": "Drop your email to get notified when a new lineup goes out. No spam, just shout outs.",
-    "buttondownUsername": "YOUR_USERNAME"
+    "buttondownUsername": "crappy"
   },
 
   "social": {
-    "coffee": "https://ko-fi.com/",
-    "email": "mailto:hello@example.com",
-    "instagram": "https://instagram.com/"
+    "coffee": "https://ko-fi.com/yoodrix",
+    "email": "mailto:codercrappy@gmail.com",
+    "instagram": "https://www.instagram.com/yoodrix_//"
   },
 
   "cards": [
@@ -25,7 +25,7 @@
       "title": "DESTINY RINGS",
       "color": "sponsor",
       "sponsored": true,
-      "link": "#",
+      "link": "https://www.yourdestinyrings.com/?ref=zoodrix",
       "paragraphs": [
         {
           "lead": "What if your ring quietly buzzed when someone nearby was your match?",
@@ -41,7 +41,7 @@
       "title": "GRAIS AI",
       "color": "pink",
       "sponsored": false,
-      "link": "#",
+      "link": "https://grais.ai/?fp_ref=contentpartners&utm_source=yoodrix&utm_medium=sponsored&utm_campaign=small_dev_showcase",
       "paragraphs": [
         {
           "text": "Grais AI is your communication partner that lives in real time inside your conversations. Attach a chat, get the context, subtext, promises, and a draft in your voice, then approve what goes out. Works across WhatsApp, Telegram, Instagram, LinkedIn, and Tinder. Register and test it free now."
@@ -53,7 +53,7 @@
       "title": "ALLTAILS CARE",
       "color": "teal",
       "sponsored": false,
-      "link": "#",
+      "link": "https://alltailscare.com/",
       "paragraphs": [
         {
           "text": "AllTails Care is a mobile app that centralizes pet care. Routines, health logs and analytics, family and caregiver sharing. All info in one place — no missed meds, no forgetting info at the vet. Free for one person, one pet."
@@ -65,7 +65,7 @@
       "title": "MINUTED",
       "color": "cream",
       "sponsored": false,
-      "link": "#",
+      "link": "https://apps.apple.com/us/app/minuted/id6764897137",
       "paragraphs": [
         {
           "text": "Build a roster of people you meet with regularly (with their hourly rates), and when a meeting starts, pick who's in the room and tap Start. The app shows the running dollar cost of the meeting live, in real time."
@@ -77,7 +77,7 @@
       "title": "HEURON",
       "color": "sponsor",
       "sponsored": false,
-      "link": "#",
+      "link": "https://www.heuron.news/",
       "paragraphs": [
         {
           "text": "A social and visual news hub. It's a navigable map that features markers that represent articles from around the world."
@@ -89,7 +89,7 @@
       "title": "HABIT OF THE DAY",
       "color": "pink",
       "sponsored": false,
-      "link": "#",
+      "link": "https://habitoftheday.com/",
       "paragraphs": [
         {
           "text": "Gives you one small habit a day from the community or curated feed and all you need to do is complete it. No streaks, no guilt — and if you fail you're given a smaller habit instead, so you're still improving."
