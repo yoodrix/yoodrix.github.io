@@ -326,7 +326,7 @@
       try{
         showMsg("Submitting…", "demo");
         const resp = await fetch(
-          "https://buttondown.email/api/emails/embed-subscribe/" + buttondownUsername,
+          "https://buttondown.com/api/emails/embed-subscribe/" + buttondownUsername,
           {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -359,6 +359,10 @@
       console.error(err);
     });
 </script>
+
+<!-- GoatCounter analytics -->
+<script data-goatcounter="https://YOUR_CODE.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
 
 </body>
 </html>
