@@ -1,0 +1,100 @@
+{
+  "site": {
+    "brand": "YOODRIX",
+    "tagline": "Showcasing sites from small devs",
+    "lineupLabel": "Todays lineup:",
+    "viewcount": "ViewCount of Last List: 40K",
+    "footerText": "Email to submit your own project! Include the name, a link to it, an up to 300 character summary, and whether or not you'd like to be sponsored! And check out our Instagram for more shout outs and memes."
+  },
+
+  "signup": {
+    "heading": "GET THE NEXT LIST",
+    "description": "Drop your email to get notified when a new lineup goes out. No spam, just shout outs.",
+    "buttondownUsername": "YOUR_USERNAME"
+  },
+
+  "social": {
+    "coffee": "https://ko-fi.com/",
+    "email": "mailto:hello@example.com",
+    "instagram": "https://instagram.com/"
+  },
+
+  "cards": [
+    {
+      "id": "card-1",
+      "title": "DESTINY RINGS",
+      "color": "sponsor",
+      "sponsored": true,
+      "link": "#",
+      "paragraphs": [
+        {
+          "lead": "What if your ring quietly buzzed when someone nearby was your match?",
+          "text": " Destiny Rings is a smart ring + companion app that helps people discover mutual attraction in real life. When two compatible people cross paths, both rings subtly buzz. Tap your rings together to confirm the connection, then unlock a match and chat in the app. No swiping. No cold approaches. Just real-life chemistry backed by real compatibility. Launching first in Hoboken."
+        },
+        {
+          "text": "Join the early-access waitlist, move up the list by referring friends, and unlock exclusive launch rewards."
+        }
+      ]
+    },
+    {
+      "id": "card-2",
+      "title": "GRAIS AI",
+      "color": "pink",
+      "sponsored": false,
+      "link": "#",
+      "paragraphs": [
+        {
+          "text": "Grais AI is your communication partner that lives in real time inside your conversations. Attach a chat, get the context, subtext, promises, and a draft in your voice, then approve what goes out. Works across WhatsApp, Telegram, Instagram, LinkedIn, and Tinder. Register and test it free now."
+        }
+      ]
+    },
+    {
+      "id": "card-3",
+      "title": "ALLTAILS CARE",
+      "color": "teal",
+      "sponsored": false,
+      "link": "#",
+      "paragraphs": [
+        {
+          "text": "AllTails Care is a mobile app that centralizes pet care. Routines, health logs and analytics, family and caregiver sharing. All info in one place — no missed meds, no forgetting info at the vet. Free for one person, one pet."
+        }
+      ]
+    },
+    {
+      "id": "card-4",
+      "title": "MINUTED",
+      "color": "cream",
+      "sponsored": false,
+      "link": "#",
+      "paragraphs": [
+        {
+          "text": "Build a roster of people you meet with regularly (with their hourly rates), and when a meeting starts, pick who's in the room and tap Start. The app shows the running dollar cost of the meeting live, in real time."
+        }
+      ]
+    },
+    {
+      "id": "card-5",
+      "title": "HEURON",
+      "color": "sponsor",
+      "sponsored": false,
+      "link": "#",
+      "paragraphs": [
+        {
+          "text": "A social and visual news hub. It's a navigable map that features markers that represent articles from around the world."
+        }
+      ]
+    },
+    {
+      "id": "card-6",
+      "title": "HABIT OF THE DAY",
+      "color": "pink",
+      "sponsored": false,
+      "link": "#",
+      "paragraphs": [
+        {
+          "text": "Gives you one small habit a day from the community or curated feed and all you need to do is complete it. No streaks, no guilt — and if you fail you're given a smaller habit instead, so you're still improving."
+        }
+      ]
+    }
+  ]
+}
