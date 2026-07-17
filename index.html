@@ -121,7 +121,7 @@
     display:flex;
     justify-content:center;
     gap: 22px;
-    margin: 20px 0 44px;
+    margin: 44px 0 0;
   }
 
   .social-row .icon-btn{ width: 64px; height: 64px; border-radius: 18px; }
@@ -218,7 +218,7 @@
   .signup-msg.error{ color: #a33; font-weight: 700; }
   .signup-msg.demo{ color: #6b5c00; }
 
-  /* --- NEW KO-FI SUPPORT CARD STYLES --- */
+  /* --- SUPPORT CARD STYLES --- */
   .support-card {
     border-radius: 22px;
     border: 3px solid var(--ink);
@@ -229,10 +229,14 @@
     text-align: center;
   }
 
+  .support-card h2 {
+    margin: 0 0 20px; /* Space between title and button */
+  }
+
   .support-card p {
     font-size: 0.92rem;
     line-height: 1.6;
-    margin: 0 0 24px;
+    margin: 24px 0 0; /* Space now sits above the paragraph to separate it from the button */
   }
 
   .support-btn {
@@ -326,25 +330,25 @@
         <p class="signup-msg" id="signup-msg"></p>
       </div>
 
-      <!-- NEW WIDE AND CENTERED SUPPORT CARD -->
+      <!-- WIDE AND CENTERED SUPPORT CARD WITH TEXT BENEATH BUTTON -->
       <div class="support-card">
         <h2>Support Yoodrix</h2>
-        <p>This site is 100% free for everyone to use - any and all donations would help a lot and allow me to keep supporting small devs everywhere</p>
         <a class="support-btn" href="${data.social.coffee}" target="_blank" rel="noopener" aria-label="Support Yoodrix on Ko-fi">
           ${COFFEE_SVG}
           <span>Support on Ko-fi</span>
         </a>
-      </div>
-
-      <!-- SOCIAL ROW (NOW WITH COFFEE REMOVED FOR A CLEANER LOOK) -->
-      <div class="social-row">
-        <a class="icon-btn" href="${data.social.email}" aria-label="Email">${EMAIL_SVG}</a>
-        <a class="icon-btn" href="${data.social.instagram}" target="_blank" rel="noopener" aria-label="Instagram">${INSTAGRAM_SVG}</a>
+        <p>This site is 100% free for everyone to use - any and all donations would help a lot and allow me to keep supporting small devs everywhere</p>
       </div>
 
       <p class="viewcount">${escapeHtml(data.site.viewcount)}</p>
 
       <p class="footer-text">${escapeHtml(data.site.footerText)}</p>
+
+      <!-- SOCIAL ROW AT THE ABSOLUTE BOTTOM -->
+      <div class="social-row">
+        <a class="icon-btn" href="${data.social.email}" aria-label="Email">${EMAIL_SVG}</a>
+        <a class="icon-btn" href="${data.social.instagram}" target="_blank" rel="noopener" aria-label="Instagram">${INSTAGRAM_SVG}</a>
+      </div>
     `;
 
     setupSignupForm(data.signup.buttondownUsername);
